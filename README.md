@@ -34,9 +34,9 @@
 - **JavaScript** – For logic, interactivity, and animations  
 
 ## 📸 Screenshots  
-![Description](screenshots/img1.svg)
-![Description](screenshots/img2.svg)
-![Description](screenshots/img2.svg)
+![Description](screenshots/img1.png)
+![Description](screenshots/img2.png)
+![Description](screenshots/img2.png)
 
 ## 📌 Future Enhancements  
 📌 Add more algorithms like **Bellman-Ford & Floyd-Warshall**  
