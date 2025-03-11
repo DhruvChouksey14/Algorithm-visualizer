@@ -1,0 +1,105 @@
+/* Improved Button Styles */
+.btn {
+    padding: 0.6em 1.2em;
+    border-radius: 0.5em;
+    color: #000;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    font-size: 1em;
+    font-weight: 600; /* Bolder text */
+    box-sizing: border-box;
+    max-height: 3em;
+    border: none;
+    text-align: center;
+    display: inline-block;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: all 0.2s ease;
+    cursor: pointer;
+    
+    /* Prevent text selection */
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+  }
+  
+  .btn:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+  }
+  
+  .btn:active {
+    transform: translateY(1px);
+    box-shadow: 0 2px 3px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Button variations */
+  .btn-start {
+    background: linear-gradient(to bottom, #0cd130, #0ab329);
+    color: #000;
+    text-shadow: 0 1px 0 rgba(255, 255, 255, 0.3);
+  }
+  
+  .btn-start:hover {
+    background: linear-gradient(to bottom, #0ee037, #0cd130);
+  }
+  
+  .btn-pause {
+    background: linear-gradient(to bottom, #fafa52, #f8f83a);
+    color: #000;
+    text-shadow: 0 1px 0 rgba(255, 255, 255, 0.3);
+  }
+  
+  .btn-pause:hover {
+    background: linear-gradient(to bottom, #fcfc6a, #fafa52);
+  }
+  
+  .btn-reset {
+    background: linear-gradient(to bottom, #FD4659, #fc3449);
+    color: #fff;
+    text-shadow: 0 1px 0 rgba(0, 0, 0, 0.2);
+  }
+  
+  .btn-reset:hover {
+    background: linear-gradient(to bottom, #fd5a6a, #FD4659);
+  }
+  
+  /* Additional states */
+  .disabled {
+    background: #d0d0d0;
+    color: #a0a0a0;
+    cursor: not-allowed;
+    box-shadow: none;
+    pointer-events: none;
+    opacity: 0.7;
+  }
+  
+  .disabled:hover {
+    transform: none;
+    box-shadow: none;
+  }
+  
+  .active-pause {
+    background: linear-gradient(to bottom, #FFAB0F, #f9a400);
+  }
+  
+  .active-pause:hover {
+    background: linear-gradient(to bottom, #ffb52d, #FFAB0F);
+  }
+  
+  /* Add a subtle border for better visibility */
+  .btn {
+    border: 1px solid rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Optional animation for button press effect */
+  @keyframes buttonPress {
+    0% { transform: scale(1); }
+    50% { transform: scale(0.97); }
+    100% { transform: scale(1); }
+  }
+  
+  .btn:active {
+    animation: buttonPress 0.2s ease;
+  }
