@@ -36,7 +36,7 @@
 ## 📸 Screenshots  
 ![Description](screenshots/img1.png)
 ![Description](screenshots/img2.png)
-![Description](screenshots/img2.png)
+![Description](screenshots/img3.png)
 
 ## 📌 Future Enhancements  
 📌 Add more algorithms like **Bellman-Ford & Floyd-Warshall**  
